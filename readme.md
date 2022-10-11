@@ -25,15 +25,15 @@ UI
 
 Calibration
 
-<img src="figure/calibration.png" alt="calibration" style="zoom: 67%;" />
+<img src="figure/calibration.png" alt="calibration" style="zoom: 33%;" />
 
 
 
 RoI Selection and Egde Detection
 
-<img src="figure/RoI.png" alt="RoI" style="zoom:50%;" />
+<img src="figure/RoI.png" alt="RoI" style="zoom: 33%;" />
 
-<img src="figure/detection.png" alt="detection" style="zoom:48%;" />
+<img src="figure/detection.png" alt="detection" style="zoom: 33%;" />
 
 
 
@@ -54,9 +54,9 @@ Gesture Recognition and Interactive
 
 Posture Estimation and Interactive
 
-<img src="figure/posture.png" alt="posture" style="zoom: 33%;" />
+<img src="figure/posture.png" alt="posture" style="zoom: 25%;" />
 
-<img src="figure/posture2.png" alt="posture2" style="zoom: 33%;" />
+<img src="figure/posture2.png" alt="posture2" style="zoom: 25%;" />
 
 
 
@@ -68,6 +68,6 @@ Voice Control
 
 Trajectory Planning
 
-![trajectory](figure/trajectory.png)
+<img src="figure/trajectory.png" alt="trajectory" style="zoom: 50%;" />
 
-<img src="figure/plan.png" alt="planning" style="zoom:48%;" />
+<img src="figure/plan.png" alt="planning" style="zoom: 25%;" />
