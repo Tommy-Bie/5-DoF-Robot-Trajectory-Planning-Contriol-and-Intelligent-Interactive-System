@@ -1,0 +1,18 @@
+<RCC>
+  <qresource prefix="png">
+    <file>speech.png</file>
+    <file>scut2.png</file>
+    <file>heart.png</file>
+    <file>scut.png</file>
+    <file>bg8.jpg</file>
+    <file>tech.png</file>
+    <file>robot.png</file>
+    <file>bg11.png</file>
+    <file>arm.png</file>
+    <file>control.png</file>
+    <file>arrowtip.png</file>
+    <file>camera.png</file>
+    <file>hand.png</file>
+    <file>start.png</file>
+  </qresource>
+</RCC>

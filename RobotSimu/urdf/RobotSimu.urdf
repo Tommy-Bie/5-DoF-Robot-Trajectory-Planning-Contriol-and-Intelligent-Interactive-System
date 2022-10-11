@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-1-g15f4949  Build Version: 1.6.7594.29634
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="RobotSimu">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="1.85210098646582E-09 -0.0213348044298276 0.0257777007434297"
+        rpy="0 0 0" />
+      <mass
+        value="1000.171476114988883" />
+      <inertia
+        ixx="0.000490503950534033"
+        ixy="-5.31011457808604E-12"
+        ixz="4.99470568675034E-12"
+        iyy="0.000178279176825449"
+        iyz="3.54225981820265E-08"
+        izz="0.000658605896149164" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://RobotSimu/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="base_color">
+        <color
+          rgba="0.3 0.3 0.3 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://RobotSimu/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="Link_1">
+    <inertial>
+      <origin
+        xyz="-0.00109944857618166 -0.000573089103170027 0.00854146439699212"
+        rpy="0 0 0" />
+      <mass
+        value="0.0581789981467626" />
+      <inertia
+        ixx="1.55310416613272E-05"
+        ixy="3.44822142165696E-08"
+        ixz="1.64281003555278E-07"
+        iyy="1.48492694364836E-05"
+        iyz="5.49654868302076E-10"
+        izz="2.74225104219604E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://RobotSimu/meshes/Link_1.STL" />
+      </geometry>
+      <material
+        name="Link_1_color">
+        <color
+         rgba="0 0.35 1 1"  />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://RobotSimu/meshes/Link_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="000"
+    type="revolute">
+    <origin
+      xyz="0 0 0.063"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="Link_1" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-6.28"
+      upper="6.28"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Link_2">
+    <inertial>
+      <origin
+        xyz="-2.77555756156289E-17 0.0515 -0.028"
+        rpy="0 0 0" />
+      <mass
+        value="0.0162655308744818" />
+      <inertia
+        ixx="1.58221109478343E-05"
+        ixy="-2.89638746622362E-22"
+        ixz="6.45788469798762E-24"
+        iyy="1.03486871483174E-05"
+        iyz="-3.42801456359513E-22"
+        izz="7.2104401185472E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://RobotSimu/meshes/Link_2.STL" />
+      </geometry>
+      <material
+        name="Link_2_color">
+        <color
+          rgba="0 0.5 0.8 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://RobotSimu/meshes/Link_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="001"
+    type="revolute">
+    <origin
+      xyz="0.0287 -0.010695 0.0165"
+      rpy="1.5708 0 1.5708" />
+    <parent
+      link="Link_1" />
+    <child
+      link="Link_2" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-6.28"
+      upper="6.28"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Link_3">
+    <inertial>
+      <origin
+        xyz="-0.00153473304907872 0.0213982443646799 -0.0300189544670887"
+        rpy="0 0 0" />
+      <mass
+        value="0.0492976910015532" />
+      <inertia
+        ixx="2.0066137700484E-05"
+        ixy="-1.06463959786764E-07"
+        ixz="1.64065331595808E-07"
+        iyy="1.23652907590259E-05"
+        iyz="3.56537247640853E-08"
+        izz="1.17583358232629E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://RobotSimu/meshes/Link_3.STL" />
+      </geometry>
+      <material
+        name="Link_3_color">
+        <color
+          rgba="0 0.35 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://RobotSimu/meshes/Link_3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="002"
+    type="revolute">
+    <origin
+      xyz="0 0.103 0"
+      rpy="0 0 0" />
+    <parent
+      link="Link_2" />
+    <child
+      link="Link_3" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-6.28"
+      upper="6.28"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Link_4">
+    <inertial>
+      <origin
+        xyz="-0.0144999917410608 0.0196189174119079 -0.028220072287286"
+        rpy="0 0 0" />
+      <mass
+        value="0.0774022473293267" />
+      <inertia
+        ixx="2.34505906805947E-05"
+        ixy="-1.64830658380818E-07"
+        ixz="1.64840648294885E-07"
+        iyy="1.46701107666031E-05"
+        iyz="1.87061981565075E-09"
+        izz="1.46701107666032E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://RobotSimu/meshes/Link_4.STL" />
+      </geometry>
+      <material
+        name="Link_4_color">
+        <color
+          rgba="0 0.5 0.8 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://RobotSimu/meshes/Link_4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="003"
+    type="revolute">
+    <origin
+      xyz="-0.0005 0.0975 -0.0007"
+      rpy="0 0 0" />
+    <parent
+      link="Link_3" />
+    <child
+      link="Link_4" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-6.28"
+      upper="6.28"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Link_5">
+    <inertial>
+      <origin
+        xyz="-0.0031727562105052 -0.015655061299488 -0.0317318964739809"
+        rpy="0 0 0" />
+      <mass
+        value="0.0524330253102055" />
+      <inertia
+        ixx="8.76672852006837E-06"
+        ixy="3.54226242016006E-08"
+        ixz="5.53078686636247E-08"
+        iyy="1.04721655827109E-05"
+        iyz="5.00076040148572E-12"
+        izz="1.09003371329437E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://RobotSimu/meshes/Link_5.STL" />
+      </geometry>
+      <material
+        name="end">
+        <color
+          rgba="0.7 0.7 0.7 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://RobotSimu/meshes/Link_5.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="004"
+    type="revolute">
+    <origin
+      xyz="-0.026641 0.05785 -0.01815"
+      rpy="1.5708 1.5708 0" />
+    <parent
+      link="Link_4" />
+    <child
+      link="Link_5" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="0"
+      velocity="0" />
+  </joint>
+</robot>
