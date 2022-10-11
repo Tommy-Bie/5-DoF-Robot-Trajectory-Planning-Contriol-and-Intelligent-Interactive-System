@@ -25,7 +25,7 @@ UI
 
 Calibration
 
-<img src="figure/calibration.png" alt="calibration" style="zoom: 33%;" />
+<img src="figure/calibration.png" alt="calibration" style="zoom: 33%;" width=800/>
 
 
 
@@ -56,7 +56,7 @@ Posture Estimation and Interactive
 
 <img src="figure/posture.png" alt="posture" style="zoom: 25%;" />
 
-<img src="figure/posture2.png" alt="posture2" style="zoom: 25%;" />
+<img src="figure/posture2.png" alt="posture2" style="zoom: 25%;" width="1000" />
 
 
 
